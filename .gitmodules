@@ -1,0 +1,6 @@
+[submodule "yoloe"]
+	path = yoloe
+	url = https://github.com/THU-MIG/yoloe.git
+[submodule "ultralytics"]
+	path = ultralytics
+	url = https://github.com/ultralytics/ultralytics.git

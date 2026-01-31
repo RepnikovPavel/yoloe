@@ -1,0 +1,1 @@
+docker commit yoloecontainer yoloecu124:latest
