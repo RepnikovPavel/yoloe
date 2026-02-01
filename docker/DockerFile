@@ -40,4 +40,7 @@ RUN pip install gradio==4.42.0 gradio_image_prompter==0.1.0 fastapi==0.112.2 hug
 RUN pip install huggingface-hub==0.26.3
 RUN pip install onnx coremltools onnxslim
 
+RUN ln -sf /usr/bin/python3 /usr/bin/python  
+RUN apt install -y net-tools iputils-ping netcat-openbsd
+
 WORKDIR /app
