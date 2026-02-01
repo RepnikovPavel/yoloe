@@ -76,6 +76,7 @@ if __name__ == "__main__":
         # 🏠 STRUCTURES
         "bridge", "tunnel", "overpass"
     ]
+    # prompt = ["road"]
     device = 'cuda:0'
     model = YOLOE(
         model='/mnt/nvme/huggingface/models--jameslahm--yoloe/snapshots/main/yoloe-11l-seg.pt',

@@ -39,6 +39,7 @@ if __name__ == "__main__":
     # Настройки
     MAX_SWEEPS = 10  # Количество sweeps для записи (0 = все)
     OUTPUT_DIR = '/mnt/nvme/tmp_output_videos/promt_detection'
+    # OUTPUT_DIR = '/mnt/nvme/tmp_output_videos/promt_road'
     FPS = 10  # FPS выходного видео
     
     # Создаем папку для видео если не существует
@@ -86,7 +87,7 @@ if __name__ == "__main__":
         # 🏠 STRUCTURES
         "bridge", "tunnel", "overpass"
     ]
-
+    # prompt = ["road"]
 
     device = 'cuda:0'
     model = YOLOE(
