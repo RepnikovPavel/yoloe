@@ -42,5 +42,11 @@ RUN pip install onnx coremltools onnxslim
 
 RUN ln -sf /usr/bin/python3 /usr/bin/python  
 RUN apt install -y net-tools iputils-ping netcat-openbsd
+RUN chmod 1777 /tmp
+
+# RUN sed -i 's/archive.ubuntu.com/ru.archive.ubuntu.com/g' /etc/apt/sources.list
+# RUN sed -i 's/security.ubuntu.com/ru.archive.ubuntu.com/g' /etc/apt/sources.list
+# RUN apt update
+# RUN apt install -y ffmpeg libx264-dev --fix-missing
 
 WORKDIR /app
