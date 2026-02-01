@@ -1,6 +1,8 @@
-[submodule "yoloe"]
-	path = yoloe
-	url = https://github.com/THU-MIG/yoloe.git
-[submodule "ultralytics"]
-	path = ultralytics
-	url = https://github.com/ultralytics/ultralytics.git
+[submodule "yoloefork"]
+	path = yoloefork
+	url = https://github.com/RepnikovPavel/yoloefork.git
+	branch = myfork
+[submodule "ultralyticsfork"]
+	path = ultralyticsfork
+	url = https://github.com/RepnikovPavel/ultralyticsfork.git
+	branch = myfork
