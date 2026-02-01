@@ -1,7 +1,21 @@
-build
+deps setup:  
+
+```
+bash docker/build_cu124.sh
+bash docker/build.sh
+bash docker/run.sh
+bash docker/attach.sh
+```
+
+build when nvidia can compile code(after container start)
 ```sh
 # bash docker/ultraliricsfork.sh 
 bash docker/onstartbuild.sh 
+```
+
+you can commit the runtime compilations by  
+```sh
+bash docker/commit.sh
 ```
 
 download ckpts
