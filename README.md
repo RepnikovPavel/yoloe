@@ -47,4 +47,10 @@ python3 test/text_promt/server_run.py
 ```
 
 
+promt free run (all classes from train)    
+
+```sh
+python3 test/promt_free/run.py
+```
+
 
